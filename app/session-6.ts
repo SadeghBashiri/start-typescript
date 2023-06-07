@@ -13,7 +13,7 @@ const sumOfNumbers2 = (num1: number, num2: number) => {
 function signUp(email: string, name: string, userType: string) {
     console.log(`User with name '${name}' and '${email}' email added to the system as a ${userType} type`);
 }
-// optional parammeter in function
+// optional parameter in function
 function signUp2(email: string, name: string, userType?: string) {
     if(userType === undefined) {
         userType = 'admin';
@@ -36,7 +36,7 @@ function sumOfNumbers4(num1: number, num2: number): number {
     return num1 + num2;
 }
 
-// buil-in function
+// built-in function
 const fruits = ['banana', 'orange', 'apple'];
 // const fruits = [1, 2, 3];
 fruits.map(fruit => {

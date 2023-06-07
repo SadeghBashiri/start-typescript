@@ -22,7 +22,7 @@ class Person2 {
     }
 }
 
-// inheritence
+// Inheritance
 class Customer extends Person {
     panelAccess: boolean = true;
 }
